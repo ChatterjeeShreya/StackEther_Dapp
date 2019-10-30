@@ -67,21 +67,21 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"findBestPerformer\",\"outputs\":[{\"name\":\"_bestPerformer\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"toVoter\",\"type\":\"address\"},{\"name\":\"role\",\"type\":\"uint8\"}],\"name\":\"registerUser\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_toVote\",\"type\":\"uint8\"},{\"name\":\"_upVote\",\"type\":\"uint8\"},{\"name\":\"_downVote\",\"type\":\"uint8\"}],\"name\":\"vote\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"numPerformers\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{\"constructor\":\"---- Smart contract deployed for the first time ----///\",\"findBestPerformer()\":{\"notice\":\"---- Determing user with the best performance on the forum overall(The one with best Answers) ----///\"},\"registerUser(address,uint8)\":{\"notice\":\"---- Any User registers for the first time ----///\"},\"vote(uint8,uint8,uint8)\":{\"notice\":\"---- Function for voting an Answer(UpVoting or DownVoting) ----///\"}}}},\"settings\":{\"compilationTarget\":{\"/C/Users/marauder/Documents/StackEther-Dapp/stackether-contract/contracts/StackEtherBallot.sol\":\"StackEtherBallot\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/marauder/Documents/StackEther-Dapp/stackether-contract/contracts/StackEtherBallot.sol\":{\"keccak256\":\"0x3544e8320e70d86573790cc8b31fbb56fddfa21d5ba41a41ed645088601679dc\",\"urls\":[\"bzzr://76834e1a68de8829c41f8802567fa3ea38683f486d90bca6dbe07a0f721f6e76\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506040516020806107e98339810180604052602081101561003057600080fd5b810190808051906020019092919050505033600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508060ff166001816100939190610218565b506001600080600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160016101000a81548160ff0219169083151502179055506001600080600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160036101000a81548160ff0219169083600181111561019057fe5b02179055506002600080600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548160ff021916908360ff1602179055505061026b565b81548183558181111561023f5781836000526020600020918201910161023e9190610244565b5b505050565b61026891905b80821115610264576000808201600090555060010161024a565b5090565b90565b61056f8061027a6000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806360b19a29146100465780639e9fa09714610064578063b742f5a9146100b5575b600080fd5b61004e610100565b6040518082815260200191505060405180910390f35b6100b36004803603604081101561007a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803560ff16906020019092919050505061016f565b005b6100fe600480360360608110156100cb57600080fd5b81019080803560ff169060200190929190803560ff169060200190929190803560ff169060200190929190505050610368565b005b6000806000905060008090505b60018054905081101561016a57816001828154811061012857fe5b9060005260206000200160000154111561015d576001818154811061014957fe5b906000526020600020016000015491508092505b808060010191505061010d565b505090565b60016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160016101000a81548160ff02191690831515021790555060008160ff1614156102985760008060008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160036101000a81548160ff0219169083600181111561023357fe5b021790555060016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548160ff021916908360ff160217905550610364565b60018160ff1614156103635760016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160036101000a81548160ff0219169083600181111561030257fe5b021790555060026000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548160ff021916908360ff1602179055505b5b5050565b610370610508565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206040518060800160405290816000820160009054906101000a900460ff1660ff1660ff1681526020016000820160019054906101000a900460ff161515151581526020016000820160029054906101000a900460ff1660ff1660ff1681526020016000820160039054906101000a900460ff16600181111561042c57fe5b600181111561043757fe5b8152505090506000151581602001511515148061045b57506001805490508460ff16115b156104665750610503565b83816040019060ff16908160ff168152505060018360ff16141561049057806000015192506104a5565b60018260ff1614156104a457806000015191505b5b8260ff1660018560ff16815481106104b957fe5b90600052602060002001600001600082825401925050819055508160ff1660018560ff16815481106104e757fe5b9060005260206000200160000160008282540392505081905550505b505050565b6040518060800160405280600060ff168152602001600015158152602001600060ff1681526020016000600181111561053d57fe5b8152509056fea165627a7a72305820e0aee8cafce472eac8289f00e0dec3ba024c3db66b567a8d061900c4ef59541c0029",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806360b19a29146100465780639e9fa09714610064578063b742f5a9146100b5575b600080fd5b61004e610100565b6040518082815260200191505060405180910390f35b6100b36004803603604081101561007a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803560ff16906020019092919050505061016f565b005b6100fe600480360360608110156100cb57600080fd5b81019080803560ff169060200190929190803560ff169060200190929190803560ff169060200190929190505050610368565b005b6000806000905060008090505b60018054905081101561016a57816001828154811061012857fe5b9060005260206000200160000154111561015d576001818154811061014957fe5b906000526020600020016000015491508092505b808060010191505061010d565b505090565b60016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160016101000a81548160ff02191690831515021790555060008160ff1614156102985760008060008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160036101000a81548160ff0219169083600181111561023357fe5b021790555060016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548160ff021916908360ff160217905550610364565b60018160ff1614156103635760016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160036101000a81548160ff0219169083600181111561030257fe5b021790555060026000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548160ff021916908360ff1602179055505b5b5050565b610370610508565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206040518060800160405290816000820160009054906101000a900460ff1660ff1660ff1681526020016000820160019054906101000a900460ff161515151581526020016000820160029054906101000a900460ff1660ff1660ff1681526020016000820160039054906101000a900460ff16600181111561042c57fe5b600181111561043757fe5b8152505090506000151581602001511515148061045b57506001805490508460ff16115b156104665750610503565b83816040019060ff16908160ff168152505060018360ff16141561049057806000015192506104a5565b60018260ff1614156104a457806000015191505b5b8260ff1660018560ff16815481106104b957fe5b90600052602060002001600001600082825401925050819055508160ff1660018560ff16815481106104e757fe5b9060005260206000200160000160008282540392505081905550505b505050565b6040518060800160405280600060ff168152602001600015158152602001600060ff1681526020016000600181111561053d57fe5b8152509056fea165627a7a72305820e0aee8cafce472eac8289f00e0dec3ba024c3db66b567a8d061900c4ef59541c0029",
-  "sourceMap": "36:2807:1:-;;;876:264;8:9:-1;5:2;;;30:1;27;20:12;5:2;876:264:1;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;876:264:1;;;;;;;;;;;;;;;;944:10;932:9;;:22;;;;;;;;;;;;;;;;;;985:13;965:33;;:10;:33;;;;;:::i;:::-;;1039:4;1009:5;:16;1015:9;;;;;;;;;;;1009:16;;;;;;;;;;;;;;;:27;;;:34;;;;;;;;;;;;;;;;;;1078:16;1054:5;:16;1060:9;;;;;;;;;;;1054:16;;;;;;;;;;;;;;;:21;;;:40;;;;;;;;;;;;;;;;;;;;;;;;1131:1;1105:5;:16;1111:9;;;;;;;;;;;1105:16;;;;;;;;;;;;;;;:23;;;:27;;;;;;;;;;;;;;;;;;876:264;36:2807;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "36:2807:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:2807:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2465:363;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1216:452;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1216:452:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;1762:575;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1762:575:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;2465:363;2514:19;2551:12;2566:1;2551:16;;2582:6;2591:1;2582:10;;2578:243;2596:10;:17;;;;2594:1;:19;2578:243;;;2669:7;2647:10;2658:1;2647:13;;;;;;;;;;;;;;;:19;;;:29;2644:166;;;2720:10;2731:1;2720:13;;;;;;;;;;;;;;;:19;;;2710:29;;2775:1;2758:18;;2644:166;2615:3;;;;;;;2578:243;;;;2465:363;;:::o;1216:452::-;1322:4;1294:5;:14;1300:7;1294:14;;;;;;;;;;;;;;;:25;;;:32;;;;;;;;;;;;;;;;;;1352:1;1344:4;:9;;;1341:310;;;1410:14;1387:5;:14;1393:7;1387:14;;;;;;;;;;;;;;;:19;;;:37;;;;;;;;;;;;;;;;;;;;;;;;1471:1;1447:5;:14;1453:7;1447:14;;;;;;;;;;;;;;;:21;;;:25;;;;;;;;;;;;;;;;;;1341:310;;;1518:1;1510:4;:9;;;1507:144;;;1575:16;1553:5;:14;1559:7;1553:14;;;;;;;;;;;;;;;:19;;;:38;;;;;;;;;;;;;;;;;;;;;;;;1634:1;1610:5;:14;1616:7;1610:14;;;;;;;;;;;;;;;:21;;;:25;;;;;;;;;;;;;;;;;;1507:144;1341:310;1216:452;;:::o;1762:575::-;1846:18;;:::i;:::-;1867:5;:17;1873:10;1867:17;;;;;;;;;;;;;;;1846:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1919:5;1898:26;;:6;:17;;;:26;;;:57;;;;1938:10;:17;;;;1928:7;:27;;;1898:57;1895:69;;;1957:7;;;1895:69;2100:7;2086:6;:11;;:21;;;;;;;;;;;2130:1;2119:7;:12;;;2116:102;;;2147:6;:13;;;2137:23;;2116:102;;;2186:1;2173:9;:14;;;2170:48;;;2205:6;:13;;;2193:25;;2170:48;2116:102;2263:7;2234:36;;:10;2245:7;2234:19;;;;;;;;;;;;;;;;;:25;;;:36;;;;;;;;;;;2310:9;2281:38;;:10;2292:7;2281:19;;;;;;;;;;;;;;;;;:25;;;:38;;;;;;;;;;;1762:575;;;;;:::o;36:2807::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity >=0.4.22 <0.6.0;\r\n\r\ncontract StackEtherBallot\r\n{\r\n    /// ---- Mainting 2 types of Users ----///\r\n    enum Status {General, Moderator}\r\n    \r\n    \r\n    /// ---- User properties ----///\r\n    struct User\r\n    {\r\n        uint8 weight;\r\n        bool isEligible;\r\n        uint8 vote;\r\n        Status stat;\r\n    }\r\n    mapping(address => User) users;\r\n    \r\n    ///---- For keeping a count of all performers who give Answers(Candidates for getting voted) ----///\r\n    struct Performer\r\n    {\r\n        uint votes;\r\n    }\r\n    Performer[] performers;\r\n    \r\n    ///---- Admin ----///\r\n    address admin_add;\r\n    \r\n    ///---- Modifier to provide access only when Admin executes the contract ----///\r\n    modifier onlyAdmin()\r\n    {\r\n        require(msg.sender == admin_add);\r\n      _;\r\n    }\r\n    \r\n    ///---- Smart contract deployed for the first time ----///\r\n    constructor(uint8 numPerformers) public\r\n    {\r\n        admin_add = msg.sender;\r\n        performers.length = numPerformers;\r\n        users[admin_add].isEligible = true;\r\n        users[admin_add].stat = Status.Moderator;\r\n        users[admin_add].weight = 2;\r\n    }\r\n    \r\n    \r\n   ///---- Any User registers for the first time ----///\r\n    function registerUser(address toVoter, uint8 role) public\r\n    {\r\n            users[toVoter].isEligible = true;\r\n            if(role == 0)\r\n            {\r\n                users[toVoter].stat =  Status.General;    \r\n                users[toVoter].weight = 1;\r\n            }\r\n            else if(role == 1)\r\n            {\r\n                users[toVoter].stat = Status.Moderator;\r\n                users[toVoter].weight = 2;\r\n            }\r\n        \r\n    }\r\n    \r\n    \r\n    /// ---- Function for voting an Answer(UpVoting or DownVoting) ----///\r\n    function vote(uint8 _toVote, uint8 _upVote, uint8 _downVote) public\r\n    {\r\n        User memory sender = users[msg.sender];\r\n        if(sender.isEligible == false || _toVote > performers.length) return;\r\n        \r\n        //Remember to set upvote and downvote values to 1/0 or 0/1 in UI as per button click        \r\n        sender.vote = _toVote;\r\n\t\t\r\n\t\tif(_upVote == 1)\r\n\t\t\t_upVote = sender.weight;\r\n\t\telse if(_downVote == 1)\r\n\t\t\t_downVote = sender.weight;\r\n\t\t\t\r\n        performers[_toVote].votes += _upVote;\r\n        performers[_toVote].votes -= _downVote;\r\n        \r\n    }\r\n    \r\n    \r\n    ///---- Determing user with the best performance on the forum overall(The one with best Answers) ----///\r\n    function findBestPerformer() public view returns(uint _bestPerformer)\r\n    {\r\n        uint maxVote = 0;\r\n        for(uint p = 0; p<performers.length; p++)\r\n        {\r\n            if(performers[p].votes > maxVote)\r\n            {\r\n                maxVote = performers[p].votes;\r\n                _bestPerformer = p;\r\n                \r\n            }\r\n        }\r\n    }\r\n    \r\n    \r\n}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"findBestPerformer\",\"outputs\":[{\"name\":\"_bestPerformer\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"toVoter\",\"type\":\"address\"},{\"name\":\"role\",\"type\":\"uint8\"}],\"name\":\"registerUser\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_toVote\",\"type\":\"uint8\"},{\"name\":\"_upVote\",\"type\":\"uint8\"},{\"name\":\"_downVote\",\"type\":\"uint8\"}],\"name\":\"vote\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"numPerformers\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{\"constructor\":\"---- Smart contract deployed for the first time ----///\",\"findBestPerformer()\":{\"notice\":\"---- Determing user with the best performance on the forum overall(The one with best Answers) ----///\"},\"registerUser(address,uint8)\":{\"notice\":\"---- Any User registers for the first time ----///\"},\"vote(uint8,uint8,uint8)\":{\"notice\":\"---- Function for voting an Answer(UpVoting or DownVoting) ----///\"}}}},\"settings\":{\"compilationTarget\":{\"/C/Users/marauder/Documents/StackEther-Dapp/stackether-contract/contracts/StackEtherBallot.sol\":\"StackEtherBallot\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/marauder/Documents/StackEther-Dapp/stackether-contract/contracts/StackEtherBallot.sol\":{\"keccak256\":\"0x006772a6dce7c4191fa5d842760356eb3c0cd33e2a02d2c7fc6b94d82a1e3d6b\",\"urls\":[\"bzzr://50de43bd9fd558d41d506b4d85306ce21aceb7ba772fb43cb0b97746cc8af666\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516020806108378339810180604052602081101561003057600080fd5b810190808051906020019092919050505033600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508060ff166001816100939190610218565b506001600080600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160016101000a81548160ff0219169083151502179055506001600080600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160036101000a81548160ff0219169083600181111561019057fe5b02179055506002600080600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548160ff021916908360ff1602179055505061026b565b81548183558181111561023f5781836000526020600020918201910161023e9190610244565b5b505050565b61026891905b80821115610264576000808201600090555060010161024a565b5090565b90565b6105bd8061027a6000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806360b19a29146100465780639e9fa09714610064578063b742f5a9146100b5575b600080fd5b61004e610100565b6040518082815260200191505060405180910390f35b6100b36004803603604081101561007a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803560ff16906020019092919050505061016f565b005b6100fe600480360360608110156100cb57600080fd5b81019080803560ff169060200190929190803560ff169060200190929190803560ff169060200190929190505050610368565b005b6000806000905060008090505b60018054905081101561016a57816001828154811061012857fe5b9060005260206000200160000154111561015d576001818154811061014957fe5b906000526020600020016000015491508092505b808060010191505061010d565b505090565b60016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160016101000a81548160ff02191690831515021790555060008160ff1614156102985760008060008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160036101000a81548160ff0219169083600181111561023357fe5b021790555060016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548160ff021916908360ff160217905550610364565b60018160ff1614156103635760016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160036101000a81548160ff0219169083600181111561030257fe5b021790555060026000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548160ff021916908360ff1602179055505b5b5050565b610370610556565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206040518060800160405290816000820160009054906101000a900460ff1660ff1660ff1681526020016000820160019054906101000a900460ff161515151581526020016000820160029054906101000a900460ff1660ff1660ff1681526020016000820160039054906101000a900460ff16600181111561042c57fe5b600181111561043757fe5b8152505090506000151581602001511515148061045b57506001805490508460ff16115b156104665750610551565b83816040019060ff16908160ff168152505060018360ff1614156104be57806000015192508260ff1660018560ff168154811061049f57fe5b906000526020600020016000016000828254019250508190555061054f565b60018260ff16141561054e57600060018560ff16815481106104dc57fe5b90600052602060002001600001541161051757600060018560ff168154811061050157fe5b906000526020600020016000018190555061054d565b806000015191508160ff1660018560ff168154811061053257fe5b90600052602060002001600001600082825403925050819055505b5b5b505b505050565b6040518060800160405280600060ff168152602001600015158152602001600060ff1681526020016000600181111561058b57fe5b8152509056fea165627a7a723058208ef33b6e586a678f5b421119e00e2cddad5c067211c16176f21d60d97cd297210029",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806360b19a29146100465780639e9fa09714610064578063b742f5a9146100b5575b600080fd5b61004e610100565b6040518082815260200191505060405180910390f35b6100b36004803603604081101561007a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803560ff16906020019092919050505061016f565b005b6100fe600480360360608110156100cb57600080fd5b81019080803560ff169060200190929190803560ff169060200190929190803560ff169060200190929190505050610368565b005b6000806000905060008090505b60018054905081101561016a57816001828154811061012857fe5b9060005260206000200160000154111561015d576001818154811061014957fe5b906000526020600020016000015491508092505b808060010191505061010d565b505090565b60016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160016101000a81548160ff02191690831515021790555060008160ff1614156102985760008060008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160036101000a81548160ff0219169083600181111561023357fe5b021790555060016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548160ff021916908360ff160217905550610364565b60018160ff1614156103635760016000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160036101000a81548160ff0219169083600181111561030257fe5b021790555060026000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548160ff021916908360ff1602179055505b5b5050565b610370610556565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206040518060800160405290816000820160009054906101000a900460ff1660ff1660ff1681526020016000820160019054906101000a900460ff161515151581526020016000820160029054906101000a900460ff1660ff1660ff1681526020016000820160039054906101000a900460ff16600181111561042c57fe5b600181111561043757fe5b8152505090506000151581602001511515148061045b57506001805490508460ff16115b156104665750610551565b83816040019060ff16908160ff168152505060018360ff1614156104be57806000015192508260ff1660018560ff168154811061049f57fe5b906000526020600020016000016000828254019250508190555061054f565b60018260ff16141561054e57600060018560ff16815481106104dc57fe5b90600052602060002001600001541161051757600060018560ff168154811061050157fe5b906000526020600020016000018190555061054d565b806000015191508160ff1660018560ff168154811061053257fe5b90600052602060002001600001600082825403925050819055505b5b5b505b505050565b6040518060800160405280600060ff168152602001600015158152602001600060ff1681526020016000600181111561058b57fe5b8152509056fea165627a7a723058208ef33b6e586a678f5b421119e00e2cddad5c067211c16176f21d60d97cd297210029",
+  "sourceMap": "36:3029:1:-;;;876:264;8:9:-1;5:2;;;30:1;27;20:12;5:2;876:264:1;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;876:264:1;;;;;;;;;;;;;;;;944:10;932:9;;:22;;;;;;;;;;;;;;;;;;985:13;965:33;;:10;:33;;;;;:::i;:::-;;1039:4;1009:5;:16;1015:9;;;;;;;;;;;1009:16;;;;;;;;;;;;;;;:27;;;:34;;;;;;;;;;;;;;;;;;1078:16;1054:5;:16;1060:9;;;;;;;;;;;1054:16;;;;;;;;;;;;;;;:21;;;:40;;;;;;;;;;;;;;;;;;;;;;;;1131:1;1105:5;:16;1111:9;;;;;;;;;;;1105:16;;;;;;;;;;;;;;;:23;;;:27;;;;;;;;;;;;;;;;;;876:264;36:3029;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "36:3029:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:3029:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2687:363;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1216:452;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1216:452:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;1762:797;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1762:797:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;2687:363;2736:19;2773:12;2788:1;2773:16;;2804:6;2813:1;2804:10;;2800:243;2818:10;:17;;;;2816:1;:19;2800:243;;;2891:7;2869:10;2880:1;2869:13;;;;;;;;;;;;;;;:19;;;:29;2866:166;;;2942:10;2953:1;2942:13;;;;;;;;;;;;;;;:19;;;2932:29;;2997:1;2980:18;;2866:166;2837:3;;;;;;;2800:243;;;;2687:363;;:::o;1216:452::-;1322:4;1294:5;:14;1300:7;1294:14;;;;;;;;;;;;;;;:25;;;:32;;;;;;;;;;;;;;;;;;1352:1;1344:4;:9;;;1341:310;;;1410:14;1387:5;:14;1393:7;1387:14;;;;;;;;;;;;;;;:19;;;:37;;;;;;;;;;;;;;;;;;;;;;;;1471:1;1447:5;:14;1453:7;1447:14;;;;;;;;;;;;;;;:21;;;:25;;;;;;;;;;;;;;;;;;1341:310;;;1518:1;1510:4;:9;;;1507:144;;;1575:16;1553:5;:14;1559:7;1553:14;;;;;;;;;;;;;;;:19;;;:38;;;;;;;;;;;;;;;;;;;;;;;;1634:1;1610:5;:14;1616:7;1610:14;;;;;;;;;;;;;;;:21;;;:25;;;;;;;;;;;;;;;;;;1507:144;1341:310;1216:452;;:::o;1762:797::-;1846:18;;:::i;:::-;1867:5;:17;1873:10;1867:17;;;;;;;;;;;;;;;1846:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1919:5;1898:26;;:6;:17;;;:26;;;:57;;;;1938:10;:17;;;;1928:7;:27;;;1898:57;1895:69;;;1957:7;;;1895:69;2100:7;2086:6;:11;;:21;;;;;;;;;;;2130:1;2119:7;:12;;;2116:421;;;2167:6;:13;;;2157:23;;2224:7;2195:36;;:10;2206:7;2195:19;;;;;;;;;;;;;;;;;:25;;;:36;;;;;;;;;;;2116:421;;;2273:1;2260:9;:14;;;2257:280;;;2332:1;2303:10;2314:7;2303:19;;;;;;;;;;;;;;;;;:25;;;:30;2300:222;;2380:1;2352:10;2363:7;2352:19;;;;;;;;;;;;;;;;;:25;;:29;;;;2300:222;;;2445:6;:13;;;2433:25;;2497:9;2468:38;;:10;2479:7;2468:19;;;;;;;;;;;;;;;;;:25;;;:38;;;;;;;;;;;2300:222;2257:280;2116:421;1762:797;;;;;:::o;36:3029::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity >=0.4.22 <0.6.0;\r\n\r\ncontract StackEtherBallot\r\n{\r\n    /// ---- Mainting 2 types of Users ----///\r\n    enum Status {General, Moderator}\r\n    \r\n    \r\n    /// ---- User properties ----///\r\n    struct User\r\n    {\r\n        uint8 weight;\r\n        bool isEligible;\r\n        uint8 vote;\r\n        Status stat;\r\n    }\r\n    mapping(address => User) users;\r\n    \r\n    ///---- For keeping a count of all performers who give Answers(Candidates for getting voted) ----///\r\n    struct Performer\r\n    {\r\n        uint votes;\r\n    }\r\n    Performer[] performers;\r\n    \r\n    ///---- Admin ----///\r\n    address admin_add;\r\n    \r\n    ///---- Modifier to provide access only when Admin executes the contract ----///\r\n    modifier onlyAdmin()\r\n    {\r\n        require(msg.sender == admin_add);\r\n      _;\r\n    }\r\n    \r\n    ///---- Smart contract deployed for the first time ----///\r\n    constructor(uint8 numPerformers) public\r\n    {\r\n        admin_add = msg.sender;\r\n        performers.length = numPerformers;\r\n        users[admin_add].isEligible = true;\r\n        users[admin_add].stat = Status.Moderator;\r\n        users[admin_add].weight = 2;\r\n    }\r\n    \r\n    \r\n   ///---- Any User registers for the first time ----///\r\n    function registerUser(address toVoter, uint8 role) public\r\n    {\r\n            users[toVoter].isEligible = true;\r\n            if(role == 0)\r\n            {\r\n                users[toVoter].stat =  Status.General;    \r\n                users[toVoter].weight = 1;\r\n            }\r\n            else if(role == 1)\r\n            {\r\n                users[toVoter].stat = Status.Moderator;\r\n                users[toVoter].weight = 2;\r\n            }\r\n        \r\n    }\r\n    \r\n    \r\n    /// ---- Function for voting an Answer(UpVoting or DownVoting) ----///\r\n    function vote(uint8 _toVote, uint8 _upVote, uint8 _downVote) public\r\n    {\r\n        User memory sender = users[msg.sender];\r\n        if(sender.isEligible == false || _toVote > performers.length) return;\r\n        \r\n        //Remember to set upvote and downvote values to 1/0 or 0/1 in UI as per button click        \r\n        sender.vote = _toVote;\r\n\t\t\r\n\t\tif(_upVote == 1)\r\n        {\r\n            _upVote = sender.weight;\r\n            performers[_toVote].votes += _upVote;\r\n        }\r\n\t\t\t\r\n\t\telse if(_downVote == 1)\r\n        {\r\n            if(performers[_toVote].votes <= 0)\r\n                performers[_toVote].votes = 0;\r\n            else\r\n            {\r\n                _downVote = sender.weight;\r\n\t\t\t    performers[_toVote].votes -= _downVote;\r\n            }    \r\n        }\r\n\t\t\t\r\n        \r\n    }\r\n    \r\n    \r\n    ///---- Determing user with the best performance on the forum overall(The one with best Answers) ----///\r\n    function findBestPerformer() public view returns(uint _bestPerformer)\r\n    {\r\n        uint maxVote = 0;\r\n        for(uint p = 0; p<performers.length; p++)\r\n        {\r\n            if(performers[p].votes > maxVote)\r\n            {\r\n                maxVote = performers[p].votes;\r\n                _bestPerformer = p;\r\n                \r\n            }\r\n        }\r\n    }\r\n    \r\n    \r\n}",
   "sourcePath": "C:/Users/marauder/Documents/StackEther-Dapp/stackether-contract/contracts/StackEtherBallot.sol",
   "ast": {
     "absolutePath": "/C/Users/marauder/Documents/StackEther-Dapp/stackether-contract/contracts/StackEtherBallot.sol",
     "exportedSymbols": {
       "StackEtherBallot": [
-        296
+        313
       ]
     },
-    "id": 297,
+    "id": 314,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -104,9 +104,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 296,
+        "id": 313,
         "linearizedBaseContracts": [
-          296
+          313
         ],
         "name": "StackEtherBallot",
         "nodeType": "ContractDefinition",
@@ -245,7 +245,7 @@
             ],
             "name": "User",
             "nodeType": "StructDefinition",
-            "scope": 296,
+            "scope": 313,
             "src": "206:117:1",
             "visibility": "public"
           },
@@ -254,7 +254,7 @@
             "id": 74,
             "name": "users",
             "nodeType": "VariableDeclaration",
-            "scope": 296,
+            "scope": 313,
             "src": "329:30:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -329,7 +329,7 @@
             ],
             "name": "Performer",
             "nodeType": "StructDefinition",
-            "scope": 296,
+            "scope": 313,
             "src": "478:51:1",
             "visibility": "public"
           },
@@ -338,7 +338,7 @@
             "id": 80,
             "name": "performers",
             "nodeType": "VariableDeclaration",
-            "scope": 296,
+            "scope": 313,
             "src": "535:22:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -376,7 +376,7 @@
             "id": 82,
             "name": "admin_add",
             "nodeType": "VariableDeclaration",
-            "scope": 296,
+            "scope": 313,
             "src": "597:17:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -427,7 +427,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 311,
+                            "referencedDeclaration": 328,
                             "src": "758:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -481,10 +481,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        314,
-                        315
+                        331,
+                        332
                       ],
-                      "referencedDeclaration": 314,
+                      "referencedDeclaration": 331,
                       "src": "750:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -566,7 +566,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 311,
+                        "referencedDeclaration": 328,
                         "src": "944:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -1000,7 +1000,7 @@
               "parameters": [],
               "src": "921:0:1"
             },
-            "scope": 296,
+            "scope": 313,
             "src": "876:264:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1704,7 +1704,7 @@
               "parameters": [],
               "src": "1279:0:1"
             },
-            "scope": 296,
+            "scope": 313,
             "src": "1216:452:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1712,9 +1712,9 @@
           },
           {
             "body": {
-              "id": 252,
+              "id": 269,
               "nodeType": "Block",
-              "src": "1835:502:1",
+              "src": "1835:724:1",
               "statements": [
                 {
                   "assignments": [
@@ -1726,7 +1726,7 @@
                       "id": 197,
                       "name": "sender",
                       "nodeType": "VariableDeclaration",
-                      "scope": 252,
+                      "scope": 269,
                       "src": "1846:18:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
@@ -1775,7 +1775,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 311,
+                        "referencedDeclaration": 328,
                         "src": "1873:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -2089,19 +2089,19 @@
                         "typeIdentifier": "t_uint8",
                         "typeString": "uint8"
                       },
-                      "id": 230,
+                      "id": 238,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
                         "argumentTypes": null,
-                        "id": 228,
+                        "id": 236,
                         "name": "_downVote",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 193,
-                        "src": "2173:9:1",
+                        "src": "2260:9:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint8",
                           "typeString": "uint8"
@@ -2112,14 +2112,14 @@
                       "rightExpression": {
                         "argumentTypes": null,
                         "hexValue": "31",
-                        "id": 229,
+                        "id": 237,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "number",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "2186:1:1",
+                        "src": "2273:1:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_rational_1_by_1",
@@ -2127,327 +2127,540 @@
                         },
                         "value": "1"
                       },
-                      "src": "2173:14:1",
+                      "src": "2260:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
                     "falseBody": null,
-                    "id": 236,
+                    "id": 267,
                     "nodeType": "IfStatement",
-                    "src": "2170:48:1",
+                    "src": "2257:280:1",
                     "trueBody": {
-                      "expression": {
-                        "argumentTypes": null,
-                        "id": 234,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "leftHandSide": {
-                          "argumentTypes": null,
-                          "id": 231,
-                          "name": "_downVote",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 193,
-                          "src": "2193:9:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint8",
-                            "typeString": "uint8"
-                          }
-                        },
-                        "nodeType": "Assignment",
-                        "operator": "=",
-                        "rightHandSide": {
-                          "argumentTypes": null,
-                          "expression": {
+                      "id": 266,
+                      "nodeType": "Block",
+                      "src": "2285:252:1",
+                      "statements": [
+                        {
+                          "condition": {
                             "argumentTypes": null,
-                            "id": 232,
-                            "name": "sender",
-                            "nodeType": "Identifier",
-                            "overloadedDeclarations": [],
-                            "referencedDeclaration": 197,
-                            "src": "2205:6:1",
+                            "commonType": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "id": 244,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "leftExpression": {
+                              "argumentTypes": null,
+                              "expression": {
+                                "argumentTypes": null,
+                                "baseExpression": {
+                                  "argumentTypes": null,
+                                  "id": 239,
+                                  "name": "performers",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 80,
+                                  "src": "2303:10:1",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
+                                    "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
+                                  }
+                                },
+                                "id": 241,
+                                "indexExpression": {
+                                  "argumentTypes": null,
+                                  "id": 240,
+                                  "name": "_toVote",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 189,
+                                  "src": "2314:7:1",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint8",
+                                    "typeString": "uint8"
+                                  }
+                                },
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "nodeType": "IndexAccess",
+                                "src": "2303:19:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_struct$_Performer_$77_storage",
+                                  "typeString": "struct StackEtherBallot.Performer storage ref"
+                                }
+                              },
+                              "id": 242,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "votes",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 76,
+                              "src": "2303:25:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "nodeType": "BinaryOperation",
+                            "operator": "<=",
+                            "rightExpression": {
+                              "argumentTypes": null,
+                              "hexValue": "30",
+                              "id": 243,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "number",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "2332:1:1",
+                              "subdenomination": null,
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                              },
+                              "value": "0"
+                            },
+                            "src": "2303:30:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_User_$70_memory_ptr",
-                              "typeString": "struct StackEtherBallot.User memory"
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
                             }
                           },
-                          "id": 233,
-                          "isConstant": false,
-                          "isLValue": true,
-                          "isPure": false,
-                          "lValueRequested": false,
-                          "memberName": "weight",
-                          "nodeType": "MemberAccess",
-                          "referencedDeclaration": 63,
-                          "src": "2205:13:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint8",
-                            "typeString": "uint8"
+                          "falseBody": {
+                            "id": 264,
+                            "nodeType": "Block",
+                            "src": "2414:108:1",
+                            "statements": [
+                              {
+                                "expression": {
+                                  "argumentTypes": null,
+                                  "id": 255,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "leftHandSide": {
+                                    "argumentTypes": null,
+                                    "id": 252,
+                                    "name": "_downVote",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 193,
+                                    "src": "2433:9:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint8",
+                                      "typeString": "uint8"
+                                    }
+                                  },
+                                  "nodeType": "Assignment",
+                                  "operator": "=",
+                                  "rightHandSide": {
+                                    "argumentTypes": null,
+                                    "expression": {
+                                      "argumentTypes": null,
+                                      "id": 253,
+                                      "name": "sender",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 197,
+                                      "src": "2445:6:1",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_struct$_User_$70_memory_ptr",
+                                        "typeString": "struct StackEtherBallot.User memory"
+                                      }
+                                    },
+                                    "id": 254,
+                                    "isConstant": false,
+                                    "isLValue": true,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "memberName": "weight",
+                                    "nodeType": "MemberAccess",
+                                    "referencedDeclaration": 63,
+                                    "src": "2445:13:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint8",
+                                      "typeString": "uint8"
+                                    }
+                                  },
+                                  "src": "2433:25:1",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint8",
+                                    "typeString": "uint8"
+                                  }
+                                },
+                                "id": 256,
+                                "nodeType": "ExpressionStatement",
+                                "src": "2433:25:1"
+                              },
+                              {
+                                "expression": {
+                                  "argumentTypes": null,
+                                  "id": 262,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "leftHandSide": {
+                                    "argumentTypes": null,
+                                    "expression": {
+                                      "argumentTypes": null,
+                                      "baseExpression": {
+                                        "argumentTypes": null,
+                                        "id": 257,
+                                        "name": "performers",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 80,
+                                        "src": "2468:10:1",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
+                                          "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
+                                        }
+                                      },
+                                      "id": 259,
+                                      "indexExpression": {
+                                        "argumentTypes": null,
+                                        "id": 258,
+                                        "name": "_toVote",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 189,
+                                        "src": "2479:7:1",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint8",
+                                          "typeString": "uint8"
+                                        }
+                                      },
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "nodeType": "IndexAccess",
+                                      "src": "2468:19:1",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_struct$_Performer_$77_storage",
+                                        "typeString": "struct StackEtherBallot.Performer storage ref"
+                                      }
+                                    },
+                                    "id": 260,
+                                    "isConstant": false,
+                                    "isLValue": true,
+                                    "isPure": false,
+                                    "lValueRequested": true,
+                                    "memberName": "votes",
+                                    "nodeType": "MemberAccess",
+                                    "referencedDeclaration": 76,
+                                    "src": "2468:25:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint256",
+                                      "typeString": "uint256"
+                                    }
+                                  },
+                                  "nodeType": "Assignment",
+                                  "operator": "-=",
+                                  "rightHandSide": {
+                                    "argumentTypes": null,
+                                    "id": 261,
+                                    "name": "_downVote",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 193,
+                                    "src": "2497:9:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint8",
+                                      "typeString": "uint8"
+                                    }
+                                  },
+                                  "src": "2468:38:1",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                },
+                                "id": 263,
+                                "nodeType": "ExpressionStatement",
+                                "src": "2468:38:1"
+                              }
+                            ]
+                          },
+                          "id": 265,
+                          "nodeType": "IfStatement",
+                          "src": "2300:222:1",
+                          "trueBody": {
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 250,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "leftHandSide": {
+                                "argumentTypes": null,
+                                "expression": {
+                                  "argumentTypes": null,
+                                  "baseExpression": {
+                                    "argumentTypes": null,
+                                    "id": 245,
+                                    "name": "performers",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 80,
+                                    "src": "2352:10:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
+                                      "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
+                                    }
+                                  },
+                                  "id": 247,
+                                  "indexExpression": {
+                                    "argumentTypes": null,
+                                    "id": 246,
+                                    "name": "_toVote",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 189,
+                                    "src": "2363:7:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint8",
+                                      "typeString": "uint8"
+                                    }
+                                  },
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "nodeType": "IndexAccess",
+                                  "src": "2352:19:1",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_Performer_$77_storage",
+                                    "typeString": "struct StackEtherBallot.Performer storage ref"
+                                  }
+                                },
+                                "id": 248,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": true,
+                                "memberName": "votes",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 76,
+                                "src": "2352:25:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              },
+                              "nodeType": "Assignment",
+                              "operator": "=",
+                              "rightHandSide": {
+                                "argumentTypes": null,
+                                "hexValue": "30",
+                                "id": 249,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": true,
+                                "kind": "number",
+                                "lValueRequested": false,
+                                "nodeType": "Literal",
+                                "src": "2380:1:1",
+                                "subdenomination": null,
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_rational_0_by_1",
+                                  "typeString": "int_const 0"
+                                },
+                                "value": "0"
+                              },
+                              "src": "2352:29:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "id": 251,
+                            "nodeType": "ExpressionStatement",
+                            "src": "2352:29:1"
                           }
-                        },
-                        "src": "2193:25:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint8",
-                          "typeString": "uint8"
                         }
-                      },
-                      "id": 235,
-                      "nodeType": "ExpressionStatement",
-                      "src": "2193:25:1"
+                      ]
                     }
                   },
-                  "id": 237,
+                  "id": 268,
                   "nodeType": "IfStatement",
-                  "src": "2116:102:1",
+                  "src": "2116:421:1",
                   "trueBody": {
-                    "expression": {
-                      "argumentTypes": null,
-                      "id": 226,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "lValueRequested": false,
-                      "leftHandSide": {
-                        "argumentTypes": null,
-                        "id": 223,
-                        "name": "_upVote",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 191,
-                        "src": "2137:7:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint8",
-                          "typeString": "uint8"
-                        }
-                      },
-                      "nodeType": "Assignment",
-                      "operator": "=",
-                      "rightHandSide": {
-                        "argumentTypes": null,
+                    "id": 235,
+                    "nodeType": "Block",
+                    "src": "2142:101:1",
+                    "statements": [
+                      {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 224,
-                          "name": "sender",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 197,
-                          "src": "2147:6:1",
+                          "id": 226,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 223,
+                            "name": "_upVote",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 191,
+                            "src": "2157:7:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint8",
+                              "typeString": "uint8"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 224,
+                              "name": "sender",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 197,
+                              "src": "2167:6:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_User_$70_memory_ptr",
+                                "typeString": "struct StackEtherBallot.User memory"
+                              }
+                            },
+                            "id": 225,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "weight",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 63,
+                            "src": "2167:13:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint8",
+                              "typeString": "uint8"
+                            }
+                          },
+                          "src": "2157:23:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_User_$70_memory_ptr",
-                            "typeString": "struct StackEtherBallot.User memory"
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
                           }
                         },
-                        "id": 225,
-                        "isConstant": false,
-                        "isLValue": true,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "memberName": "weight",
-                        "nodeType": "MemberAccess",
-                        "referencedDeclaration": 63,
-                        "src": "2147:13:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint8",
-                          "typeString": "uint8"
-                        }
+                        "id": 227,
+                        "nodeType": "ExpressionStatement",
+                        "src": "2157:23:1"
                       },
-                      "src": "2137:23:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint8",
-                        "typeString": "uint8"
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 233,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "baseExpression": {
+                                "argumentTypes": null,
+                                "id": 228,
+                                "name": "performers",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 80,
+                                "src": "2195:10:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
+                                  "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
+                                }
+                              },
+                              "id": 230,
+                              "indexExpression": {
+                                "argumentTypes": null,
+                                "id": 229,
+                                "name": "_toVote",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 189,
+                                "src": "2206:7:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint8",
+                                  "typeString": "uint8"
+                                }
+                              },
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "nodeType": "IndexAccess",
+                              "src": "2195:19:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Performer_$77_storage",
+                                "typeString": "struct StackEtherBallot.Performer storage ref"
+                              }
+                            },
+                            "id": 231,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "memberName": "votes",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 76,
+                            "src": "2195:25:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "+=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "id": 232,
+                            "name": "_upVote",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 191,
+                            "src": "2224:7:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint8",
+                              "typeString": "uint8"
+                            }
+                          },
+                          "src": "2195:36:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 234,
+                        "nodeType": "ExpressionStatement",
+                        "src": "2195:36:1"
                       }
-                    },
-                    "id": 227,
-                    "nodeType": "ExpressionStatement",
-                    "src": "2137:23:1"
+                    ]
                   }
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 243,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "argumentTypes": null,
-                      "expression": {
-                        "argumentTypes": null,
-                        "baseExpression": {
-                          "argumentTypes": null,
-                          "id": 238,
-                          "name": "performers",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 80,
-                          "src": "2234:10:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
-                            "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
-                          }
-                        },
-                        "id": 240,
-                        "indexExpression": {
-                          "argumentTypes": null,
-                          "id": 239,
-                          "name": "_toVote",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 189,
-                          "src": "2245:7:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint8",
-                            "typeString": "uint8"
-                          }
-                        },
-                        "isConstant": false,
-                        "isLValue": true,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "nodeType": "IndexAccess",
-                        "src": "2234:19:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Performer_$77_storage",
-                          "typeString": "struct StackEtherBallot.Performer storage ref"
-                        }
-                      },
-                      "id": 241,
-                      "isConstant": false,
-                      "isLValue": true,
-                      "isPure": false,
-                      "lValueRequested": true,
-                      "memberName": "votes",
-                      "nodeType": "MemberAccess",
-                      "referencedDeclaration": 76,
-                      "src": "2234:25:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "+=",
-                    "rightHandSide": {
-                      "argumentTypes": null,
-                      "id": 242,
-                      "name": "_upVote",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 191,
-                      "src": "2263:7:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint8",
-                        "typeString": "uint8"
-                      }
-                    },
-                    "src": "2234:36:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "id": 244,
-                  "nodeType": "ExpressionStatement",
-                  "src": "2234:36:1"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 250,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "argumentTypes": null,
-                      "expression": {
-                        "argumentTypes": null,
-                        "baseExpression": {
-                          "argumentTypes": null,
-                          "id": 245,
-                          "name": "performers",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 80,
-                          "src": "2281:10:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
-                            "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
-                          }
-                        },
-                        "id": 247,
-                        "indexExpression": {
-                          "argumentTypes": null,
-                          "id": 246,
-                          "name": "_toVote",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 189,
-                          "src": "2292:7:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint8",
-                            "typeString": "uint8"
-                          }
-                        },
-                        "isConstant": false,
-                        "isLValue": true,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "nodeType": "IndexAccess",
-                        "src": "2281:19:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Performer_$77_storage",
-                          "typeString": "struct StackEtherBallot.Performer storage ref"
-                        }
-                      },
-                      "id": 248,
-                      "isConstant": false,
-                      "isLValue": true,
-                      "isPure": false,
-                      "lValueRequested": true,
-                      "memberName": "votes",
-                      "nodeType": "MemberAccess",
-                      "referencedDeclaration": 76,
-                      "src": "2281:25:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "-=",
-                    "rightHandSide": {
-                      "argumentTypes": null,
-                      "id": 249,
-                      "name": "_downVote",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 193,
-                      "src": "2310:9:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint8",
-                        "typeString": "uint8"
-                      }
-                    },
-                    "src": "2281:38:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "id": 251,
-                  "nodeType": "ExpressionStatement",
-                  "src": "2281:38:1"
                 }
               ]
             },
             "documentation": "---- Function for voting an Answer(UpVoting or DownVoting) ----///",
-            "id": 253,
+            "id": 270,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -2462,7 +2675,7 @@
                   "id": 189,
                   "name": "_toVote",
                   "nodeType": "VariableDeclaration",
-                  "scope": 253,
+                  "scope": 270,
                   "src": "1776:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2488,7 +2701,7 @@
                   "id": 191,
                   "name": "_upVote",
                   "nodeType": "VariableDeclaration",
-                  "scope": 253,
+                  "scope": 270,
                   "src": "1791:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2514,7 +2727,7 @@
                   "id": 193,
                   "name": "_downVote",
                   "nodeType": "VariableDeclaration",
-                  "scope": 253,
+                  "scope": 270,
                   "src": "1806:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2544,30 +2757,30 @@
               "parameters": [],
               "src": "1835:0:1"
             },
-            "scope": 296,
-            "src": "1762:575:1",
+            "scope": 313,
+            "src": "1762:797:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 294,
+              "id": 311,
               "nodeType": "Block",
-              "src": "2540:288:1",
+              "src": "2762:288:1",
               "statements": [
                 {
                   "assignments": [
-                    259
+                    276
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 259,
+                      "id": 276,
                       "name": "maxVote",
                       "nodeType": "VariableDeclaration",
-                      "scope": 294,
-                      "src": "2551:12:1",
+                      "scope": 311,
+                      "src": "2773:12:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -2575,10 +2788,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 258,
+                        "id": 275,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
-                        "src": "2551:4:1",
+                        "src": "2773:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2588,18 +2801,18 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 261,
+                  "id": 278,
                   "initialValue": {
                     "argumentTypes": null,
                     "hexValue": "30",
-                    "id": 260,
+                    "id": 277,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "number",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "2566:1:1",
+                    "src": "2788:1:1",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_rational_0_by_1",
@@ -2608,13 +2821,13 @@
                     "value": "0"
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "2551:16:1"
+                  "src": "2773:16:1"
                 },
                 {
                   "body": {
-                    "id": 292,
+                    "id": 309,
                     "nodeType": "Block",
-                    "src": "2629:192:1",
+                    "src": "2851:192:1",
                     "statements": [
                       {
                         "condition": {
@@ -2623,7 +2836,7 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 278,
+                          "id": 295,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2634,26 +2847,26 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 273,
+                                "id": 290,
                                 "name": "performers",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
                                 "referencedDeclaration": 80,
-                                "src": "2647:10:1",
+                                "src": "2869:10:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
                                   "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
                                 }
                               },
-                              "id": 275,
+                              "id": 292,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 274,
+                                "id": 291,
                                 "name": "p",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 263,
-                                "src": "2658:1:1",
+                                "referencedDeclaration": 280,
+                                "src": "2880:1:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
@@ -2664,13 +2877,13 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "2647:13:1",
+                              "src": "2869:13:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_Performer_$77_storage",
                                 "typeString": "struct StackEtherBallot.Performer storage ref"
                               }
                             },
-                            "id": 276,
+                            "id": 293,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
@@ -2678,7 +2891,7 @@
                             "memberName": "votes",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": 76,
-                            "src": "2647:19:1",
+                            "src": "2869:19:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2688,48 +2901,48 @@
                           "operator": ">",
                           "rightExpression": {
                             "argumentTypes": null,
-                            "id": 277,
+                            "id": 294,
                             "name": "maxVote",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 259,
-                            "src": "2669:7:1",
+                            "referencedDeclaration": 276,
+                            "src": "2891:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "2647:29:1",
+                          "src": "2869:29:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
                         "falseBody": null,
-                        "id": 291,
+                        "id": 308,
                         "nodeType": "IfStatement",
-                        "src": "2644:166:1",
+                        "src": "2866:166:1",
                         "trueBody": {
-                          "id": 290,
+                          "id": 307,
                           "nodeType": "Block",
-                          "src": "2691:119:1",
+                          "src": "2913:119:1",
                           "statements": [
                             {
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 284,
+                                "id": 301,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftHandSide": {
                                   "argumentTypes": null,
-                                  "id": 279,
+                                  "id": 296,
                                   "name": "maxVote",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 259,
-                                  "src": "2710:7:1",
+                                  "referencedDeclaration": 276,
+                                  "src": "2932:7:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -2743,26 +2956,26 @@
                                     "argumentTypes": null,
                                     "baseExpression": {
                                       "argumentTypes": null,
-                                      "id": 280,
+                                      "id": 297,
                                       "name": "performers",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
                                       "referencedDeclaration": 80,
-                                      "src": "2720:10:1",
+                                      "src": "2942:10:1",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
                                         "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
                                       }
                                     },
-                                    "id": 282,
+                                    "id": 299,
                                     "indexExpression": {
                                       "argumentTypes": null,
-                                      "id": 281,
+                                      "id": 298,
                                       "name": "p",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 263,
-                                      "src": "2731:1:1",
+                                      "referencedDeclaration": 280,
+                                      "src": "2953:1:1",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_uint256",
                                         "typeString": "uint256"
@@ -2773,13 +2986,13 @@
                                     "isPure": false,
                                     "lValueRequested": false,
                                     "nodeType": "IndexAccess",
-                                    "src": "2720:13:1",
+                                    "src": "2942:13:1",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_struct$_Performer_$77_storage",
                                       "typeString": "struct StackEtherBallot.Performer storage ref"
                                     }
                                   },
-                                  "id": 283,
+                                  "id": 300,
                                   "isConstant": false,
                                   "isLValue": true,
                                   "isPure": false,
@@ -2787,38 +3000,38 @@
                                   "memberName": "votes",
                                   "nodeType": "MemberAccess",
                                   "referencedDeclaration": 76,
-                                  "src": "2720:19:1",
+                                  "src": "2942:19:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
                                   }
                                 },
-                                "src": "2710:29:1",
+                                "src": "2932:29:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
                                 }
                               },
-                              "id": 285,
+                              "id": 302,
                               "nodeType": "ExpressionStatement",
-                              "src": "2710:29:1"
+                              "src": "2932:29:1"
                             },
                             {
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 288,
+                                "id": 305,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftHandSide": {
                                   "argumentTypes": null,
-                                  "id": 286,
+                                  "id": 303,
                                   "name": "_bestPerformer",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 256,
-                                  "src": "2758:14:1",
+                                  "referencedDeclaration": 273,
+                                  "src": "2980:14:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -2828,26 +3041,26 @@
                                 "operator": "=",
                                 "rightHandSide": {
                                   "argumentTypes": null,
-                                  "id": 287,
+                                  "id": 304,
                                   "name": "p",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 263,
-                                  "src": "2775:1:1",
+                                  "referencedDeclaration": 280,
+                                  "src": "2997:1:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
                                   }
                                 },
-                                "src": "2758:18:1",
+                                "src": "2980:18:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
                                 }
                               },
-                              "id": 289,
+                              "id": 306,
                               "nodeType": "ExpressionStatement",
-                              "src": "2758:18:1"
+                              "src": "2980:18:1"
                             }
                           ]
                         }
@@ -2860,19 +3073,19 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 269,
+                    "id": 286,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "argumentTypes": null,
-                      "id": 266,
+                      "id": 283,
                       "name": "p",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 263,
-                      "src": "2594:1:1",
+                      "referencedDeclaration": 280,
+                      "src": "2816:1:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2884,18 +3097,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 267,
+                        "id": 284,
                         "name": "performers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 80,
-                        "src": "2596:10:1",
+                        "src": "2818:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
                           "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
                         }
                       },
-                      "id": 268,
+                      "id": 285,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -2903,31 +3116,31 @@
                       "memberName": "length",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "2596:17:1",
+                      "src": "2818:17:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "2594:19:1",
+                    "src": "2816:19:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 293,
+                  "id": 310,
                   "initializationExpression": {
                     "assignments": [
-                      263
+                      280
                     ],
                     "declarations": [
                       {
                         "constant": false,
-                        "id": 263,
+                        "id": 280,
                         "name": "p",
                         "nodeType": "VariableDeclaration",
-                        "scope": 293,
-                        "src": "2582:6:1",
+                        "scope": 310,
+                        "src": "2804:6:1",
                         "stateVariable": false,
                         "storageLocation": "default",
                         "typeDescriptions": {
@@ -2935,10 +3148,10 @@
                           "typeString": "uint256"
                         },
                         "typeName": {
-                          "id": 262,
+                          "id": 279,
                           "name": "uint",
                           "nodeType": "ElementaryTypeName",
-                          "src": "2582:4:1",
+                          "src": "2804:4:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -2948,18 +3161,18 @@
                         "visibility": "internal"
                       }
                     ],
-                    "id": 265,
+                    "id": 282,
                     "initialValue": {
                       "argumentTypes": null,
                       "hexValue": "30",
-                      "id": 264,
+                      "id": 281,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "2591:1:1",
+                      "src": "2813:1:1",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
@@ -2968,12 +3181,12 @@
                       "value": "0"
                     },
                     "nodeType": "VariableDeclarationStatement",
-                    "src": "2582:10:1"
+                    "src": "2804:10:1"
                   },
                   "loopExpression": {
                     "expression": {
                       "argumentTypes": null,
-                      "id": 271,
+                      "id": 288,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2981,15 +3194,15 @@
                       "nodeType": "UnaryOperation",
                       "operator": "++",
                       "prefix": false,
-                      "src": "2615:3:1",
+                      "src": "2837:3:1",
                       "subExpression": {
                         "argumentTypes": null,
-                        "id": 270,
+                        "id": 287,
                         "name": "p",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 263,
-                        "src": "2615:1:1",
+                        "referencedDeclaration": 280,
+                        "src": "2837:1:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3000,39 +3213,39 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 272,
+                    "id": 289,
                     "nodeType": "ExpressionStatement",
-                    "src": "2615:3:1"
+                    "src": "2837:3:1"
                   },
                   "nodeType": "ForStatement",
-                  "src": "2578:243:1"
+                  "src": "2800:243:1"
                 }
               ]
             },
             "documentation": "---- Determing user with the best performance on the forum overall(The one with best Answers) ----///",
-            "id": 295,
+            "id": 312,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "findBestPerformer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 254,
+              "id": 271,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2491:2:1"
+              "src": "2713:2:1"
             },
             "returnParameters": {
-              "id": 257,
+              "id": 274,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 256,
+                  "id": 273,
                   "name": "_bestPerformer",
                   "nodeType": "VariableDeclaration",
-                  "scope": 295,
-                  "src": "2514:19:1",
+                  "scope": 312,
+                  "src": "2736:19:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3040,10 +3253,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 255,
+                    "id": 272,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2514:4:1",
+                    "src": "2736:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3053,29 +3266,29 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2513:21:1"
+              "src": "2735:21:1"
             },
-            "scope": 296,
-            "src": "2465:363:1",
+            "scope": 313,
+            "src": "2687:363:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 297,
-        "src": "36:2807:1"
+        "scope": 314,
+        "src": "36:3029:1"
       }
     ],
-    "src": "0:2843:1"
+    "src": "0:3065:1"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/marauder/Documents/StackEther-Dapp/stackether-contract/contracts/StackEtherBallot.sol",
     "exportedSymbols": {
       "StackEtherBallot": [
-        296
+        313
       ]
     },
-    "id": 297,
+    "id": 314,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -3098,9 +3311,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 296,
+        "id": 313,
         "linearizedBaseContracts": [
-          296
+          313
         ],
         "name": "StackEtherBallot",
         "nodeType": "ContractDefinition",
@@ -3239,7 +3452,7 @@
             ],
             "name": "User",
             "nodeType": "StructDefinition",
-            "scope": 296,
+            "scope": 313,
             "src": "206:117:1",
             "visibility": "public"
           },
@@ -3248,7 +3461,7 @@
             "id": 74,
             "name": "users",
             "nodeType": "VariableDeclaration",
-            "scope": 296,
+            "scope": 313,
             "src": "329:30:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -3323,7 +3536,7 @@
             ],
             "name": "Performer",
             "nodeType": "StructDefinition",
-            "scope": 296,
+            "scope": 313,
             "src": "478:51:1",
             "visibility": "public"
           },
@@ -3332,7 +3545,7 @@
             "id": 80,
             "name": "performers",
             "nodeType": "VariableDeclaration",
-            "scope": 296,
+            "scope": 313,
             "src": "535:22:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -3370,7 +3583,7 @@
             "id": 82,
             "name": "admin_add",
             "nodeType": "VariableDeclaration",
-            "scope": 296,
+            "scope": 313,
             "src": "597:17:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -3421,7 +3634,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 311,
+                            "referencedDeclaration": 328,
                             "src": "758:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -3475,10 +3688,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        314,
-                        315
+                        331,
+                        332
                       ],
-                      "referencedDeclaration": 314,
+                      "referencedDeclaration": 331,
                       "src": "750:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3560,7 +3773,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 311,
+                        "referencedDeclaration": 328,
                         "src": "944:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -3994,7 +4207,7 @@
               "parameters": [],
               "src": "921:0:1"
             },
-            "scope": 296,
+            "scope": 313,
             "src": "876:264:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -4698,7 +4911,7 @@
               "parameters": [],
               "src": "1279:0:1"
             },
-            "scope": 296,
+            "scope": 313,
             "src": "1216:452:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -4706,9 +4919,9 @@
           },
           {
             "body": {
-              "id": 252,
+              "id": 269,
               "nodeType": "Block",
-              "src": "1835:502:1",
+              "src": "1835:724:1",
               "statements": [
                 {
                   "assignments": [
@@ -4720,7 +4933,7 @@
                       "id": 197,
                       "name": "sender",
                       "nodeType": "VariableDeclaration",
-                      "scope": 252,
+                      "scope": 269,
                       "src": "1846:18:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
@@ -4769,7 +4982,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 311,
+                        "referencedDeclaration": 328,
                         "src": "1873:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -5083,19 +5296,19 @@
                         "typeIdentifier": "t_uint8",
                         "typeString": "uint8"
                       },
-                      "id": 230,
+                      "id": 238,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
                         "argumentTypes": null,
-                        "id": 228,
+                        "id": 236,
                         "name": "_downVote",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 193,
-                        "src": "2173:9:1",
+                        "src": "2260:9:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint8",
                           "typeString": "uint8"
@@ -5106,14 +5319,14 @@
                       "rightExpression": {
                         "argumentTypes": null,
                         "hexValue": "31",
-                        "id": 229,
+                        "id": 237,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "number",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "2186:1:1",
+                        "src": "2273:1:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_rational_1_by_1",
@@ -5121,327 +5334,540 @@
                         },
                         "value": "1"
                       },
-                      "src": "2173:14:1",
+                      "src": "2260:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
                     "falseBody": null,
-                    "id": 236,
+                    "id": 267,
                     "nodeType": "IfStatement",
-                    "src": "2170:48:1",
+                    "src": "2257:280:1",
                     "trueBody": {
-                      "expression": {
-                        "argumentTypes": null,
-                        "id": 234,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "leftHandSide": {
-                          "argumentTypes": null,
-                          "id": 231,
-                          "name": "_downVote",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 193,
-                          "src": "2193:9:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint8",
-                            "typeString": "uint8"
-                          }
-                        },
-                        "nodeType": "Assignment",
-                        "operator": "=",
-                        "rightHandSide": {
-                          "argumentTypes": null,
-                          "expression": {
+                      "id": 266,
+                      "nodeType": "Block",
+                      "src": "2285:252:1",
+                      "statements": [
+                        {
+                          "condition": {
                             "argumentTypes": null,
-                            "id": 232,
-                            "name": "sender",
-                            "nodeType": "Identifier",
-                            "overloadedDeclarations": [],
-                            "referencedDeclaration": 197,
-                            "src": "2205:6:1",
+                            "commonType": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "id": 244,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "leftExpression": {
+                              "argumentTypes": null,
+                              "expression": {
+                                "argumentTypes": null,
+                                "baseExpression": {
+                                  "argumentTypes": null,
+                                  "id": 239,
+                                  "name": "performers",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 80,
+                                  "src": "2303:10:1",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
+                                    "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
+                                  }
+                                },
+                                "id": 241,
+                                "indexExpression": {
+                                  "argumentTypes": null,
+                                  "id": 240,
+                                  "name": "_toVote",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 189,
+                                  "src": "2314:7:1",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint8",
+                                    "typeString": "uint8"
+                                  }
+                                },
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "nodeType": "IndexAccess",
+                                "src": "2303:19:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_struct$_Performer_$77_storage",
+                                  "typeString": "struct StackEtherBallot.Performer storage ref"
+                                }
+                              },
+                              "id": 242,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "votes",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 76,
+                              "src": "2303:25:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "nodeType": "BinaryOperation",
+                            "operator": "<=",
+                            "rightExpression": {
+                              "argumentTypes": null,
+                              "hexValue": "30",
+                              "id": 243,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "number",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "2332:1:1",
+                              "subdenomination": null,
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                              },
+                              "value": "0"
+                            },
+                            "src": "2303:30:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_User_$70_memory_ptr",
-                              "typeString": "struct StackEtherBallot.User memory"
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
                             }
                           },
-                          "id": 233,
-                          "isConstant": false,
-                          "isLValue": true,
-                          "isPure": false,
-                          "lValueRequested": false,
-                          "memberName": "weight",
-                          "nodeType": "MemberAccess",
-                          "referencedDeclaration": 63,
-                          "src": "2205:13:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint8",
-                            "typeString": "uint8"
+                          "falseBody": {
+                            "id": 264,
+                            "nodeType": "Block",
+                            "src": "2414:108:1",
+                            "statements": [
+                              {
+                                "expression": {
+                                  "argumentTypes": null,
+                                  "id": 255,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "leftHandSide": {
+                                    "argumentTypes": null,
+                                    "id": 252,
+                                    "name": "_downVote",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 193,
+                                    "src": "2433:9:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint8",
+                                      "typeString": "uint8"
+                                    }
+                                  },
+                                  "nodeType": "Assignment",
+                                  "operator": "=",
+                                  "rightHandSide": {
+                                    "argumentTypes": null,
+                                    "expression": {
+                                      "argumentTypes": null,
+                                      "id": 253,
+                                      "name": "sender",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 197,
+                                      "src": "2445:6:1",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_struct$_User_$70_memory_ptr",
+                                        "typeString": "struct StackEtherBallot.User memory"
+                                      }
+                                    },
+                                    "id": 254,
+                                    "isConstant": false,
+                                    "isLValue": true,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "memberName": "weight",
+                                    "nodeType": "MemberAccess",
+                                    "referencedDeclaration": 63,
+                                    "src": "2445:13:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint8",
+                                      "typeString": "uint8"
+                                    }
+                                  },
+                                  "src": "2433:25:1",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint8",
+                                    "typeString": "uint8"
+                                  }
+                                },
+                                "id": 256,
+                                "nodeType": "ExpressionStatement",
+                                "src": "2433:25:1"
+                              },
+                              {
+                                "expression": {
+                                  "argumentTypes": null,
+                                  "id": 262,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "leftHandSide": {
+                                    "argumentTypes": null,
+                                    "expression": {
+                                      "argumentTypes": null,
+                                      "baseExpression": {
+                                        "argumentTypes": null,
+                                        "id": 257,
+                                        "name": "performers",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 80,
+                                        "src": "2468:10:1",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
+                                          "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
+                                        }
+                                      },
+                                      "id": 259,
+                                      "indexExpression": {
+                                        "argumentTypes": null,
+                                        "id": 258,
+                                        "name": "_toVote",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 189,
+                                        "src": "2479:7:1",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint8",
+                                          "typeString": "uint8"
+                                        }
+                                      },
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "nodeType": "IndexAccess",
+                                      "src": "2468:19:1",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_struct$_Performer_$77_storage",
+                                        "typeString": "struct StackEtherBallot.Performer storage ref"
+                                      }
+                                    },
+                                    "id": 260,
+                                    "isConstant": false,
+                                    "isLValue": true,
+                                    "isPure": false,
+                                    "lValueRequested": true,
+                                    "memberName": "votes",
+                                    "nodeType": "MemberAccess",
+                                    "referencedDeclaration": 76,
+                                    "src": "2468:25:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint256",
+                                      "typeString": "uint256"
+                                    }
+                                  },
+                                  "nodeType": "Assignment",
+                                  "operator": "-=",
+                                  "rightHandSide": {
+                                    "argumentTypes": null,
+                                    "id": 261,
+                                    "name": "_downVote",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 193,
+                                    "src": "2497:9:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint8",
+                                      "typeString": "uint8"
+                                    }
+                                  },
+                                  "src": "2468:38:1",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                },
+                                "id": 263,
+                                "nodeType": "ExpressionStatement",
+                                "src": "2468:38:1"
+                              }
+                            ]
+                          },
+                          "id": 265,
+                          "nodeType": "IfStatement",
+                          "src": "2300:222:1",
+                          "trueBody": {
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 250,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "leftHandSide": {
+                                "argumentTypes": null,
+                                "expression": {
+                                  "argumentTypes": null,
+                                  "baseExpression": {
+                                    "argumentTypes": null,
+                                    "id": 245,
+                                    "name": "performers",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 80,
+                                    "src": "2352:10:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
+                                      "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
+                                    }
+                                  },
+                                  "id": 247,
+                                  "indexExpression": {
+                                    "argumentTypes": null,
+                                    "id": 246,
+                                    "name": "_toVote",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 189,
+                                    "src": "2363:7:1",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint8",
+                                      "typeString": "uint8"
+                                    }
+                                  },
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "nodeType": "IndexAccess",
+                                  "src": "2352:19:1",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_Performer_$77_storage",
+                                    "typeString": "struct StackEtherBallot.Performer storage ref"
+                                  }
+                                },
+                                "id": 248,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": true,
+                                "memberName": "votes",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 76,
+                                "src": "2352:25:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              },
+                              "nodeType": "Assignment",
+                              "operator": "=",
+                              "rightHandSide": {
+                                "argumentTypes": null,
+                                "hexValue": "30",
+                                "id": 249,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": true,
+                                "kind": "number",
+                                "lValueRequested": false,
+                                "nodeType": "Literal",
+                                "src": "2380:1:1",
+                                "subdenomination": null,
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_rational_0_by_1",
+                                  "typeString": "int_const 0"
+                                },
+                                "value": "0"
+                              },
+                              "src": "2352:29:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "id": 251,
+                            "nodeType": "ExpressionStatement",
+                            "src": "2352:29:1"
                           }
-                        },
-                        "src": "2193:25:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint8",
-                          "typeString": "uint8"
                         }
-                      },
-                      "id": 235,
-                      "nodeType": "ExpressionStatement",
-                      "src": "2193:25:1"
+                      ]
                     }
                   },
-                  "id": 237,
+                  "id": 268,
                   "nodeType": "IfStatement",
-                  "src": "2116:102:1",
+                  "src": "2116:421:1",
                   "trueBody": {
-                    "expression": {
-                      "argumentTypes": null,
-                      "id": 226,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "lValueRequested": false,
-                      "leftHandSide": {
-                        "argumentTypes": null,
-                        "id": 223,
-                        "name": "_upVote",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 191,
-                        "src": "2137:7:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint8",
-                          "typeString": "uint8"
-                        }
-                      },
-                      "nodeType": "Assignment",
-                      "operator": "=",
-                      "rightHandSide": {
-                        "argumentTypes": null,
+                    "id": 235,
+                    "nodeType": "Block",
+                    "src": "2142:101:1",
+                    "statements": [
+                      {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 224,
-                          "name": "sender",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 197,
-                          "src": "2147:6:1",
+                          "id": 226,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 223,
+                            "name": "_upVote",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 191,
+                            "src": "2157:7:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint8",
+                              "typeString": "uint8"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 224,
+                              "name": "sender",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 197,
+                              "src": "2167:6:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_User_$70_memory_ptr",
+                                "typeString": "struct StackEtherBallot.User memory"
+                              }
+                            },
+                            "id": 225,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "weight",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 63,
+                            "src": "2167:13:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint8",
+                              "typeString": "uint8"
+                            }
+                          },
+                          "src": "2157:23:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_User_$70_memory_ptr",
-                            "typeString": "struct StackEtherBallot.User memory"
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
                           }
                         },
-                        "id": 225,
-                        "isConstant": false,
-                        "isLValue": true,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "memberName": "weight",
-                        "nodeType": "MemberAccess",
-                        "referencedDeclaration": 63,
-                        "src": "2147:13:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint8",
-                          "typeString": "uint8"
-                        }
+                        "id": 227,
+                        "nodeType": "ExpressionStatement",
+                        "src": "2157:23:1"
                       },
-                      "src": "2137:23:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint8",
-                        "typeString": "uint8"
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 233,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "baseExpression": {
+                                "argumentTypes": null,
+                                "id": 228,
+                                "name": "performers",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 80,
+                                "src": "2195:10:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
+                                  "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
+                                }
+                              },
+                              "id": 230,
+                              "indexExpression": {
+                                "argumentTypes": null,
+                                "id": 229,
+                                "name": "_toVote",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 189,
+                                "src": "2206:7:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint8",
+                                  "typeString": "uint8"
+                                }
+                              },
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "nodeType": "IndexAccess",
+                              "src": "2195:19:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Performer_$77_storage",
+                                "typeString": "struct StackEtherBallot.Performer storage ref"
+                              }
+                            },
+                            "id": 231,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "memberName": "votes",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 76,
+                            "src": "2195:25:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "+=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "id": 232,
+                            "name": "_upVote",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 191,
+                            "src": "2224:7:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint8",
+                              "typeString": "uint8"
+                            }
+                          },
+                          "src": "2195:36:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 234,
+                        "nodeType": "ExpressionStatement",
+                        "src": "2195:36:1"
                       }
-                    },
-                    "id": 227,
-                    "nodeType": "ExpressionStatement",
-                    "src": "2137:23:1"
+                    ]
                   }
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 243,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "argumentTypes": null,
-                      "expression": {
-                        "argumentTypes": null,
-                        "baseExpression": {
-                          "argumentTypes": null,
-                          "id": 238,
-                          "name": "performers",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 80,
-                          "src": "2234:10:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
-                            "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
-                          }
-                        },
-                        "id": 240,
-                        "indexExpression": {
-                          "argumentTypes": null,
-                          "id": 239,
-                          "name": "_toVote",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 189,
-                          "src": "2245:7:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint8",
-                            "typeString": "uint8"
-                          }
-                        },
-                        "isConstant": false,
-                        "isLValue": true,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "nodeType": "IndexAccess",
-                        "src": "2234:19:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Performer_$77_storage",
-                          "typeString": "struct StackEtherBallot.Performer storage ref"
-                        }
-                      },
-                      "id": 241,
-                      "isConstant": false,
-                      "isLValue": true,
-                      "isPure": false,
-                      "lValueRequested": true,
-                      "memberName": "votes",
-                      "nodeType": "MemberAccess",
-                      "referencedDeclaration": 76,
-                      "src": "2234:25:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "+=",
-                    "rightHandSide": {
-                      "argumentTypes": null,
-                      "id": 242,
-                      "name": "_upVote",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 191,
-                      "src": "2263:7:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint8",
-                        "typeString": "uint8"
-                      }
-                    },
-                    "src": "2234:36:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "id": 244,
-                  "nodeType": "ExpressionStatement",
-                  "src": "2234:36:1"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 250,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "argumentTypes": null,
-                      "expression": {
-                        "argumentTypes": null,
-                        "baseExpression": {
-                          "argumentTypes": null,
-                          "id": 245,
-                          "name": "performers",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 80,
-                          "src": "2281:10:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
-                            "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
-                          }
-                        },
-                        "id": 247,
-                        "indexExpression": {
-                          "argumentTypes": null,
-                          "id": 246,
-                          "name": "_toVote",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 189,
-                          "src": "2292:7:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint8",
-                            "typeString": "uint8"
-                          }
-                        },
-                        "isConstant": false,
-                        "isLValue": true,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "nodeType": "IndexAccess",
-                        "src": "2281:19:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Performer_$77_storage",
-                          "typeString": "struct StackEtherBallot.Performer storage ref"
-                        }
-                      },
-                      "id": 248,
-                      "isConstant": false,
-                      "isLValue": true,
-                      "isPure": false,
-                      "lValueRequested": true,
-                      "memberName": "votes",
-                      "nodeType": "MemberAccess",
-                      "referencedDeclaration": 76,
-                      "src": "2281:25:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "-=",
-                    "rightHandSide": {
-                      "argumentTypes": null,
-                      "id": 249,
-                      "name": "_downVote",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 193,
-                      "src": "2310:9:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint8",
-                        "typeString": "uint8"
-                      }
-                    },
-                    "src": "2281:38:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "id": 251,
-                  "nodeType": "ExpressionStatement",
-                  "src": "2281:38:1"
                 }
               ]
             },
             "documentation": "---- Function for voting an Answer(UpVoting or DownVoting) ----///",
-            "id": 253,
+            "id": 270,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -5456,7 +5882,7 @@
                   "id": 189,
                   "name": "_toVote",
                   "nodeType": "VariableDeclaration",
-                  "scope": 253,
+                  "scope": 270,
                   "src": "1776:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5482,7 +5908,7 @@
                   "id": 191,
                   "name": "_upVote",
                   "nodeType": "VariableDeclaration",
-                  "scope": 253,
+                  "scope": 270,
                   "src": "1791:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5508,7 +5934,7 @@
                   "id": 193,
                   "name": "_downVote",
                   "nodeType": "VariableDeclaration",
-                  "scope": 253,
+                  "scope": 270,
                   "src": "1806:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5538,30 +5964,30 @@
               "parameters": [],
               "src": "1835:0:1"
             },
-            "scope": 296,
-            "src": "1762:575:1",
+            "scope": 313,
+            "src": "1762:797:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 294,
+              "id": 311,
               "nodeType": "Block",
-              "src": "2540:288:1",
+              "src": "2762:288:1",
               "statements": [
                 {
                   "assignments": [
-                    259
+                    276
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 259,
+                      "id": 276,
                       "name": "maxVote",
                       "nodeType": "VariableDeclaration",
-                      "scope": 294,
-                      "src": "2551:12:1",
+                      "scope": 311,
+                      "src": "2773:12:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -5569,10 +5995,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 258,
+                        "id": 275,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
-                        "src": "2551:4:1",
+                        "src": "2773:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -5582,18 +6008,18 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 261,
+                  "id": 278,
                   "initialValue": {
                     "argumentTypes": null,
                     "hexValue": "30",
-                    "id": 260,
+                    "id": 277,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "number",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "2566:1:1",
+                    "src": "2788:1:1",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_rational_0_by_1",
@@ -5602,13 +6028,13 @@
                     "value": "0"
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "2551:16:1"
+                  "src": "2773:16:1"
                 },
                 {
                   "body": {
-                    "id": 292,
+                    "id": 309,
                     "nodeType": "Block",
-                    "src": "2629:192:1",
+                    "src": "2851:192:1",
                     "statements": [
                       {
                         "condition": {
@@ -5617,7 +6043,7 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 278,
+                          "id": 295,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -5628,26 +6054,26 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 273,
+                                "id": 290,
                                 "name": "performers",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
                                 "referencedDeclaration": 80,
-                                "src": "2647:10:1",
+                                "src": "2869:10:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
                                   "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
                                 }
                               },
-                              "id": 275,
+                              "id": 292,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 274,
+                                "id": 291,
                                 "name": "p",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 263,
-                                "src": "2658:1:1",
+                                "referencedDeclaration": 280,
+                                "src": "2880:1:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
@@ -5658,13 +6084,13 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "2647:13:1",
+                              "src": "2869:13:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_Performer_$77_storage",
                                 "typeString": "struct StackEtherBallot.Performer storage ref"
                               }
                             },
-                            "id": 276,
+                            "id": 293,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
@@ -5672,7 +6098,7 @@
                             "memberName": "votes",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": 76,
-                            "src": "2647:19:1",
+                            "src": "2869:19:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -5682,48 +6108,48 @@
                           "operator": ">",
                           "rightExpression": {
                             "argumentTypes": null,
-                            "id": 277,
+                            "id": 294,
                             "name": "maxVote",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 259,
-                            "src": "2669:7:1",
+                            "referencedDeclaration": 276,
+                            "src": "2891:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "2647:29:1",
+                          "src": "2869:29:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
                         "falseBody": null,
-                        "id": 291,
+                        "id": 308,
                         "nodeType": "IfStatement",
-                        "src": "2644:166:1",
+                        "src": "2866:166:1",
                         "trueBody": {
-                          "id": 290,
+                          "id": 307,
                           "nodeType": "Block",
-                          "src": "2691:119:1",
+                          "src": "2913:119:1",
                           "statements": [
                             {
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 284,
+                                "id": 301,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftHandSide": {
                                   "argumentTypes": null,
-                                  "id": 279,
+                                  "id": 296,
                                   "name": "maxVote",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 259,
-                                  "src": "2710:7:1",
+                                  "referencedDeclaration": 276,
+                                  "src": "2932:7:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -5737,26 +6163,26 @@
                                     "argumentTypes": null,
                                     "baseExpression": {
                                       "argumentTypes": null,
-                                      "id": 280,
+                                      "id": 297,
                                       "name": "performers",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
                                       "referencedDeclaration": 80,
-                                      "src": "2720:10:1",
+                                      "src": "2942:10:1",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
                                         "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
                                       }
                                     },
-                                    "id": 282,
+                                    "id": 299,
                                     "indexExpression": {
                                       "argumentTypes": null,
-                                      "id": 281,
+                                      "id": 298,
                                       "name": "p",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 263,
-                                      "src": "2731:1:1",
+                                      "referencedDeclaration": 280,
+                                      "src": "2953:1:1",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_uint256",
                                         "typeString": "uint256"
@@ -5767,13 +6193,13 @@
                                     "isPure": false,
                                     "lValueRequested": false,
                                     "nodeType": "IndexAccess",
-                                    "src": "2720:13:1",
+                                    "src": "2942:13:1",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_struct$_Performer_$77_storage",
                                       "typeString": "struct StackEtherBallot.Performer storage ref"
                                     }
                                   },
-                                  "id": 283,
+                                  "id": 300,
                                   "isConstant": false,
                                   "isLValue": true,
                                   "isPure": false,
@@ -5781,38 +6207,38 @@
                                   "memberName": "votes",
                                   "nodeType": "MemberAccess",
                                   "referencedDeclaration": 76,
-                                  "src": "2720:19:1",
+                                  "src": "2942:19:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
                                   }
                                 },
-                                "src": "2710:29:1",
+                                "src": "2932:29:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
                                 }
                               },
-                              "id": 285,
+                              "id": 302,
                               "nodeType": "ExpressionStatement",
-                              "src": "2710:29:1"
+                              "src": "2932:29:1"
                             },
                             {
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 288,
+                                "id": 305,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftHandSide": {
                                   "argumentTypes": null,
-                                  "id": 286,
+                                  "id": 303,
                                   "name": "_bestPerformer",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 256,
-                                  "src": "2758:14:1",
+                                  "referencedDeclaration": 273,
+                                  "src": "2980:14:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -5822,26 +6248,26 @@
                                 "operator": "=",
                                 "rightHandSide": {
                                   "argumentTypes": null,
-                                  "id": 287,
+                                  "id": 304,
                                   "name": "p",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 263,
-                                  "src": "2775:1:1",
+                                  "referencedDeclaration": 280,
+                                  "src": "2997:1:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
                                   }
                                 },
-                                "src": "2758:18:1",
+                                "src": "2980:18:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
                                 }
                               },
-                              "id": 289,
+                              "id": 306,
                               "nodeType": "ExpressionStatement",
-                              "src": "2758:18:1"
+                              "src": "2980:18:1"
                             }
                           ]
                         }
@@ -5854,19 +6280,19 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 269,
+                    "id": 286,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "argumentTypes": null,
-                      "id": 266,
+                      "id": 283,
                       "name": "p",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 263,
-                      "src": "2594:1:1",
+                      "referencedDeclaration": 280,
+                      "src": "2816:1:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -5878,18 +6304,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 267,
+                        "id": 284,
                         "name": "performers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 80,
-                        "src": "2596:10:1",
+                        "src": "2818:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_struct$_Performer_$77_storage_$dyn_storage",
                           "typeString": "struct StackEtherBallot.Performer storage ref[] storage ref"
                         }
                       },
-                      "id": 268,
+                      "id": 285,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -5897,31 +6323,31 @@
                       "memberName": "length",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "2596:17:1",
+                      "src": "2818:17:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "2594:19:1",
+                    "src": "2816:19:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 293,
+                  "id": 310,
                   "initializationExpression": {
                     "assignments": [
-                      263
+                      280
                     ],
                     "declarations": [
                       {
                         "constant": false,
-                        "id": 263,
+                        "id": 280,
                         "name": "p",
                         "nodeType": "VariableDeclaration",
-                        "scope": 293,
-                        "src": "2582:6:1",
+                        "scope": 310,
+                        "src": "2804:6:1",
                         "stateVariable": false,
                         "storageLocation": "default",
                         "typeDescriptions": {
@@ -5929,10 +6355,10 @@
                           "typeString": "uint256"
                         },
                         "typeName": {
-                          "id": 262,
+                          "id": 279,
                           "name": "uint",
                           "nodeType": "ElementaryTypeName",
-                          "src": "2582:4:1",
+                          "src": "2804:4:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -5942,18 +6368,18 @@
                         "visibility": "internal"
                       }
                     ],
-                    "id": 265,
+                    "id": 282,
                     "initialValue": {
                       "argumentTypes": null,
                       "hexValue": "30",
-                      "id": 264,
+                      "id": 281,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "2591:1:1",
+                      "src": "2813:1:1",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
@@ -5962,12 +6388,12 @@
                       "value": "0"
                     },
                     "nodeType": "VariableDeclarationStatement",
-                    "src": "2582:10:1"
+                    "src": "2804:10:1"
                   },
                   "loopExpression": {
                     "expression": {
                       "argumentTypes": null,
-                      "id": 271,
+                      "id": 288,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -5975,15 +6401,15 @@
                       "nodeType": "UnaryOperation",
                       "operator": "++",
                       "prefix": false,
-                      "src": "2615:3:1",
+                      "src": "2837:3:1",
                       "subExpression": {
                         "argumentTypes": null,
-                        "id": 270,
+                        "id": 287,
                         "name": "p",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 263,
-                        "src": "2615:1:1",
+                        "referencedDeclaration": 280,
+                        "src": "2837:1:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -5994,39 +6420,39 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 272,
+                    "id": 289,
                     "nodeType": "ExpressionStatement",
-                    "src": "2615:3:1"
+                    "src": "2837:3:1"
                   },
                   "nodeType": "ForStatement",
-                  "src": "2578:243:1"
+                  "src": "2800:243:1"
                 }
               ]
             },
             "documentation": "---- Determing user with the best performance on the forum overall(The one with best Answers) ----///",
-            "id": 295,
+            "id": 312,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "findBestPerformer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 254,
+              "id": 271,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2491:2:1"
+              "src": "2713:2:1"
             },
             "returnParameters": {
-              "id": 257,
+              "id": 274,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 256,
+                  "id": 273,
                   "name": "_bestPerformer",
                   "nodeType": "VariableDeclaration",
-                  "scope": 295,
-                  "src": "2514:19:1",
+                  "scope": 312,
+                  "src": "2736:19:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -6034,10 +6460,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 255,
+                    "id": 272,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2514:4:1",
+                    "src": "2736:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -6047,20 +6473,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2513:21:1"
+              "src": "2735:21:1"
             },
-            "scope": 296,
-            "src": "2465:363:1",
+            "scope": 313,
+            "src": "2687:363:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 297,
-        "src": "36:2807:1"
+        "scope": 314,
+        "src": "36:3029:1"
       }
     ],
-    "src": "0:2843:1"
+    "src": "0:3065:1"
   },
   "compiler": {
     "name": "solc",
@@ -6070,12 +6496,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x2f52ef353CF46599b7cc97815a90a6200d0626E5",
-      "transactionHash": "0xdac28c32186713171b3c995438cfa383afbadfe032c0458c478510da76c6a6ae"
+      "address": "0x4eFaEcCabF391379F3217CD0B2337504Ca727bc6",
+      "transactionHash": "0x3446a674521e1c5c67b82e3e2cc04e61f4a7263f2c88a0a68ecdeabc4c5b73eb"
     }
   },
   "schemaVersion": "3.0.16",
-  "updatedAt": "2019-10-30T04:00:47.824Z",
+  "updatedAt": "2019-10-30T04:30:22.685Z",
   "devdoc": {
     "methods": {}
   },

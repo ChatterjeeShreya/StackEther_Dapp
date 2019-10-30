@@ -72,12 +72,22 @@ contract StackEtherBallot
         sender.vote = _toVote;
 		
 		if(_upVote == 1)
-			_upVote = sender.weight;
-		else if(_downVote == 1)
-			_downVote = sender.weight;
+        {
+            _upVote = sender.weight;
+            performers[_toVote].votes += _upVote;
+        }
 			
-        performers[_toVote].votes += _upVote;
-        performers[_toVote].votes -= _downVote;
+		else if(_downVote == 1)
+        {
+            if(performers[_toVote].votes <= 0)
+                performers[_toVote].votes = 0;
+            else
+            {
+                _downVote = sender.weight;
+			    performers[_toVote].votes -= _downVote;
+            }    
+        }
+			
         
     }
     
