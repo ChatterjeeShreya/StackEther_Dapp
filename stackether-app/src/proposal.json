@@ -1,0 +1,33 @@
+[
+    {
+      "id": 0,
+      "name": "Rachel",
+      "ans": "Curry"
+      
+    },
+    {
+      "id": 1,
+      "name": "Ross",
+      "ans": "Dosa"
+      
+    },
+    {
+      "id": 2,
+      "name": "Chandler",
+      "ans": "Butter Chicken"
+      
+    },
+    {
+      "id": 3,
+      "name": "Monica",
+      "ans": "Golgappe"
+      
+    },
+    {
+        "id": 4,
+        "name": "Joe",
+        "ans": "Daal Makhani"
+        
+      }
+  ]
+  
