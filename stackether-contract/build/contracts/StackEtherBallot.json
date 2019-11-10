@@ -6496,12 +6496,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x4eFaEcCabF391379F3217CD0B2337504Ca727bc6",
-      "transactionHash": "0x3446a674521e1c5c67b82e3e2cc04e61f4a7263f2c88a0a68ecdeabc4c5b73eb"
+      "address": "0xB2f1a7190C0492d57724ae6A3A1C13acc5093946",
+      "transactionHash": "0x760a92d92c7d30efff60e5f085341fb8657abf9cd4e30e571e515c357838059b"
     }
   },
   "schemaVersion": "3.0.16",
-  "updatedAt": "2019-10-30T04:30:22.685Z",
+  "updatedAt": "2019-11-09T23:33:56.988Z",
   "devdoc": {
     "methods": {}
   },
