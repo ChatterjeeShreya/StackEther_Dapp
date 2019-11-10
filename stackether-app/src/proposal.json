@@ -2,31 +2,31 @@
     {
       "id": 0,
       "name": "Rachel",
-      "ans": "Curry"
+      "ans": "Always comment your code to make it reuseable. "
       
     },
     {
       "id": 1,
       "name": "Ross",
-      "ans": "Dosa"
+      "ans": "Consider time and space complexities. Programming is more about thinking than writing. Make sure that you understand the problem at hand, the inputs/outputs that are needed and the partitioning of your modules."
       
     },
     {
       "id": 2,
       "name": "Chandler",
-      "ans": "Butter Chicken"
+      "ans": "Use short and descriptive variable names. Use correct indentation."
       
     },
     {
       "id": 3,
       "name": "Monica",
-      "ans": "Golgappe"
+      "ans": "Use version control system such as GIT."
       
     },
     {
         "id": 4,
         "name": "Joe",
-        "ans": "Daal Makhani"
+        "ans": "Testing is mandatory after every change no matter how tight schedule you have."
         
       }
   ]

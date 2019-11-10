@@ -12,7 +12,7 @@ App = {
         var proposalTemplate = $('#proposalTemplate');
         // console.table(data)
         for (i = 0; i < data.length; i ++) {
-          proposalTemplate.find('.panel-title').text(data[i].name);
+          proposalTemplate.find('.answeredbyclass').text(data[i].name);
           proposalTemplate.find('#ans').text(data[i].ans);
           proposalTemplate.find('.btn-upvote').attr('data-id', data[i].id);
           proposalTemplate.find('.btn-downvote').attr('data-id', data[i].id);
@@ -55,7 +55,9 @@ App = {
     },
   
     bindEvents: function() {
-      $(document).on('click', '.btn-vote',App.handleVote);
+      $(document).on('click', '.btn-vote', function(){
+       var ad = $('#enter_address').val(); 
+       App.handleVote(event, ad); });      
 
       $(document).on('click', '#win-count', App.handleWinner);
      //----------include voter type
@@ -113,49 +115,54 @@ App = {
       }).then(function(result, err){    
           if(result){
               if(parseInt(result.receipt.status) == 1)
-                var a = 1 
-              //alert(addr + " registration done successfully") 
+                // var a = 1 
+              alert(addr + " registration done successfully") 
               else
-                var b = 1
-              // alert(addr + " registration not done successfully due to revert")
+                // var b = 1
+              alert(addr + " registration not done successfully due to revert")
           } else {
-              var c = 1
-              // alert(addr + " registration failed")
+              // var c = 1
+              alert(addr + " registration failed")
           }   
       });
   },
   
-    handleVote: function(event) {
-      // console.log(add);
+    handleVote: function(event, ad) {
+      console.log(ad);
       event.preventDefault();
       var proposalId = parseInt($(event.target).data('id'));
-      var voteType = $(event.target)[0].innerText;
+      var voteType = $(event.target)[0].value;
       var voteInstance;
 
-      web3.eth.getAccounts(function(error, accounts) {
-        var account = accounts[0];
+      // web3.eth.getAccounts(function(error, accounts) {
+        // web3.eth.getAccounts(function(error, accounts) {
+          // var account = accounts[0];
+  
+        var account = ad;
+        console.log("address passed in handlevote: ");
+        console.log(account);
  
       App.contracts.vote.deployed().then(function(instance) {
           voteInstance = instance;
           if(voteType == "UpVote")
-            return voteInstance.vote(proposalId, 1, 0, {from: account});
+            return voteInstance.vote(proposalId, 1, 0);
           else if(voteType == "DownVote")
-            return voteInstance.vote(proposalId, 0, 1, {from: account});  
+            return voteInstance.vote(proposalId, 0, 1);  
         }).then(function(result, err){
               if(result){
                   console.log(result.receipt.status);
                   if(parseInt(result.receipt.status) == 1)
-                  // alert(account + " voting done successfully")
-                  console.log("ok")
+                  alert(account + " voting done successfully")
+                  // console.log("ok")
                   else
-                  // alert(account + " voting not done successfully due to revert")
-                  console.log("not ok ! reverted")
+                  alert(account + " voting not done successfully due to revert")
+                  // console.log("not ok ! reverted")
               } else {
-                console.log("voting failed")
-                  // alert(account + " voting failed")
+                console.log("voting failed");
+                  alert(account + " voting failed")
               }   
           });
-        });
+        // });
     },
   
     handleWinner : function() {
@@ -167,8 +174,8 @@ App = {
       }).then(function(res){
       console.table(res);
       var winner = App.names[res];
-      console.log(winner) 
-        // alert(App.names[res] + "  is the winner ! :)");
+      // console.log(winner) 
+        alert(App.names[res] + "  is the winner ! :)");
       }).catch(function(err){
         console.log(err.message);
       })
